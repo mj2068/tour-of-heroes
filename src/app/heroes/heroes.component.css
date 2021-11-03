@@ -9,6 +9,7 @@
 input {
   display: block;
   width: 100%;
+  max-width: 30%;
   padding: 0.5rem;
   margin: 1rem 0;
   box-sizing: border-box;
@@ -76,13 +77,15 @@ input {
 
 button.delete {
   position: absolute;
-  left: 210px;
-  top: 5px;
+  left: 220px;
+  top: 8px;
   background-color: white;
-  color: #525252;
-  font-size: 1.1rem;
-  padding: 1px 10px 3px 10px;
+  color: #fafafa;
+  font-size: 0.8rem;
+  padding: 2px 6px 2px 6px;
   border-radius: 4px;
+  border-style: hidden;
+  background-color: brown;
 }
 
 button.delete:hover {
